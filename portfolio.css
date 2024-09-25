@@ -1,0 +1,73 @@
+* {
+    font-family: gowun batang;
+}
+
+.navbar {
+    height: 80px;
+    background: radial-gradient(rgba(167, 225, 248, 0.692) 40%, rgb(156, 189, 239));
+    box-shadow: 0 0 50px 10px rgb(156, 189, 239);
+    /* border-radius: 50px; */
+
+}
+
+.container-fluid>h2 {
+    letter-spacing: 3px;
+}
+
+.container-fluid>img {
+    width: 40px;
+    height: 40px;
+    margin: 5px 20px;
+}
+
+#navBarBrand {
+    font-family: Shadows Into Light;
+    transform: rotate(-10deg);
+    /* background: radial-gradient(rgb(190, 226, 240), rgba(167, 225, 248, 0.692));
+    box-shadow: 0 0 40px 25px rgba(167, 225, 248, 0.692);
+    border-radius: 40px; */
+}
+
+li:hover {
+    /* background-color: rgba(167, 248, 185, 0.765); */
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px skyblue;
+
+}
+
+#works {
+    padding: 80px 0 !important;
+    margin: 0 !important;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+}
+
+
+.carousel-item>img {
+    width: 300px;
+    height: 400px;
+}
+
+.carousel-caption {
+    width: 300px;
+    height: 80px;
+    padding-top: 10px !important;
+    margin-right: 100px;
+    background: linear-gradient(white, rgb(10, 125, 166));
+    box-shadow: 0px 0px 10px 10px white;
+    color: black !important;
+    border-radius: 30px;
+    transform: translatex(-15%);
+    /* left: 50% !important; */
+}
+
+/* .btn {
+    width: 200px;
+    height: 80px;
+    background-color: transparent;
+    margin-left: 50px;
+    border: none !important;
+} */

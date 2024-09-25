@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Kolker+Brush:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Gowun+Batang:regular,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Sofadi+One:regular" rel="stylesheet" />
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container-fluid">
+            <div class="navbar-brand pb-3">
+                <h1 id="navBarBrand" class="text-dark text-center fs-l mt-2 mx-4">Gilad Lazovsky</h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#TopBar"
+                aria-controls="TopBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="TopBar">
+                <ul class="navbar-nav ms-auto" id="TopBar">
+                    <li class="nav-item text-center mx-3 fs-5"><a href="about.html"
+                            class="nav-link w-100 h-100">Home</a>
+                    </li>
+                    <li class="nav-item text-center mx-3 fs-5"><a href="about.html"
+                            class="nav-link w-100 h-100">About</a>
+                    </li>
+                    <li class="nav-item text-center mx-3 fs-5"><a href="about.html"
+                            class="nav-link w-100 h-100">Services</a>
+                    </li>
+                    <li class="nav-item text-center mx-3 fs-5"><a href="about.html"
+                            class="nav-link w-100 h-100">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-primary-subtle">
+        <h2 class="text-dark text-center m-0 py-5 fs-1">Portfolio</h2>
+    </div>
+
+    <div class="container-fluid bg-info-subtle d-flex justify-content-center py-4">
+        <img src="/images/perspective_matte-24-128x128.png" alt="html">
+        <img src="/images/vecteezy_3d-css-icon-design_12697301.png" alt="css">
+        <img src="/images/pngwing.com.png" alt="bootsrap">
+        <img src="/images/sass.png" alt="sass">
+    </div>
+
+    <div id="works" class="d-flex justify-content-center">
+        <div id="slideShow" class="carousel slide" data-bs-rid e="carousel">
+            <!--<img src="images/IMG-20201205-WA0028__02_mr1607371109186.jpg" alt=" dkscjh">
+            <div class="card-body">
+                <h4 class="card-title">Gilad Lazovsky</h4>
+                <h6 class="card-title">Film Composer</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                <div class="card-footer">
+                    <div class="container text-center">
+                        <a href="#" class="btn btn-primary">Check it out</a>
+                    </div>
+                </div>
+            </div>-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#slideShow" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/IMG-20201205-WA0028__02_mr1607371109186.jpg" alt="Gilad" class="d-block">
+                    <a href="#" class="btn">
+                        <div class="carousel-caption">
+                            <h4>Gilad Lazovsky</h4>
+                            <h5>Film Composer</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/Photoroom-20240912_001708__01.png" alt="dog" class="d-block">
+                    <a href="#" class="btn">
+                        <div class="carousel-caption">
+                            <h4>Come Play with Me</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/pexels-karolina-grabowska-4506205.jpg" alt="physiotherapist" class="d-block">
+                    <a href="#" class="btn">
+                        <div class="carousel-caption">
+                            <h4>Navot Schwartz</h4>
+                            <h5>Physical Therapy</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slideShow" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slideShow" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <!-- <div class="card"><img src="images/Photoroom-20240912_001708__01.png" alt="dog"
+                style="width: 300px; height:360px ;">
+            <div class="card-body" style="padding-top: 23px;">
+                <h4 class="card-title">Come Play with Me</h4>
+                <p class="card-text">Book a Playdate with Your Favorite Dog</p>
+                <div class="card-footer" style="margin-top: 45px;">
+                    <div class="container text-center">
+                        <a href="#" class="btn btn-primary">Check it out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card"><img src="/images/pexels-karolina-grabowska-4506205.jpg" alt="dkscjh">
+            <div class="card-body" style="padding-top: 180px;">
+                <h4 class="card-title">Navot Schwartz</h4>
+                <h6 class="card-title">Physical Therapist</h6>
+                <p class="card-text form-control-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                <div class="card-footer">
+                    <div class="container text-center">
+                        <a href="#" class="btn btn-primary">Check it out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
